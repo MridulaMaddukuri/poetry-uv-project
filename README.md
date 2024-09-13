@@ -10,6 +10,8 @@ Efficiently switch from Poetry to uv in your Python project
 2. To update your project to uv
    `uv sync`
    This will create a `uv.lock` file in your root folder
+3. Run python scripts
+   `uv run my_project/add.py`
 
 ## References
 1. `poetry-to-uv.sh` script is from [this amazing guide](https://dev.to/abbazs/transform-poetry-based-pyprojecttoml-to-uv-compatible-format-with-a-bash-script-3hem), only slightly modified
