@@ -1,0 +1,20 @@
+[project]
+name = "boilerplate-poetry-project"
+version = "0.1.0"
+requires-python = ">=3.11"
+description = "Efficiently jumpstart your Python projects"
+readme = "README.md"
+authors = [{name = "Mridula Maddukuri", email = "mridulamaddukuri@utexas.edu"}]
+dependencies = [
+    "flask>=3.0.3",
+]
+[tool.uv]
+dev-dependencies = [
+    "hypothesis>=6.99.12",
+    "isort>=5.13.2",
+    "mypy>=1.9.0",
+    "pre-commit>=3.6.2",
+    "pytest>=8.1.1",
+    "pytest-cov>=5.0.0",
+    "ruff>=0.4.7",
+]
