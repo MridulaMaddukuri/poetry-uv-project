@@ -1,5 +1,5 @@
 [project]
-name = "boilerplate-poetry-project"
+name = "my-project"
 version = "0.1.0"
 requires-python = ">=3.11"
 description = "Efficiently jumpstart your Python projects"
